@@ -59,8 +59,8 @@ NPC professions give 2 professions free
 class ProfessionNPC : public CreatureScript
 {
 public:
-  ProfessionNPC() : CreatureScript("ProfessionNPC") {}
-  
+ProfessionNPC() : CreatureScript("ProfessionNPC") {}
+
 
 	void CreatureWhisperBasedOnBool(const char *text, Creature *_creature, Player *pPlayer, bool value)
 	{
